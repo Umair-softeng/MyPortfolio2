@@ -84,7 +84,7 @@ section {
   text-align: center;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color: darkorange;
 }
 header .logo {
   font-size: 1.9rem;
@@ -117,8 +117,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #011aff;
-  border-bottom: 0.2rem solid #011aff;
+  color: darkorange;
+  border-bottom: 0.2rem solid darkorange;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -193,6 +193,8 @@ header .navbar ul li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
 }
 .home::before {
   content: "";
@@ -217,6 +219,7 @@ header .navbar ul li a:hover {
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+
 }
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
@@ -224,22 +227,22 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: floralwhite;
 }
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: darkorange;
 }
 .home .content p {
   font-size: 2.5rem;
-  color: #000;
+  color: floralwhite;
   font-weight: 600;
   padding: 1rem 0;
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: darkorange;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -461,16 +464,18 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 50vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+
 }
 .skills h2 {
   color: #fff;
 }
 .skills .heading span {
-  color: rgb(255, 230, 0);
+  color: darkorange;
 }
 .skills .container {
-  background: rgba(0, 0, 22, 0.4);
+  background: rgb(191,188,255);
+  background: linear-gradient(90deg, rgba(191,188,255,1) 0%, rgba(0,164,255,1) 50%, rgba(208,247,255,1) 100%);
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
@@ -534,7 +539,7 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
+  background: #ffffff;
   min-height: 80vh;
 }
 .education .qoute {
@@ -642,7 +647,8 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(9,81,121,1) 50%, rgba(3,65,78,1) 100%);
 }
 .work h2 {
   color: #fff;
@@ -652,18 +658,14 @@ header .navbar ul li a:hover {
   color: rgb(255, 230, 0);
 }
 .work .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
   margin: 2rem;
 }
 .work .box-container .box {
-  flex: 1 1 30rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
   overflow: hidden;
-  height: 30rem;
+  height: 35rem;
 }
 .work .box-container .box img {
   height: 100%;
@@ -786,8 +788,8 @@ header .navbar ul li a:hover {
 .experience .container::after {
   content: "\f0b1";
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   right: -17px;
   background-color: rgb(255, 255, 255);
   border: 4px solid #ff9f55;
@@ -801,10 +803,10 @@ header .navbar ul li a:hover {
   font-family: "Font Awesome\ 5 Free";
 }
 .experience .left {
-  left: 0;
+  left: -25%;
 }
 .experience .right {
-  left: 50%;
+  left: 24.9%;
 }
 /* arrows pointing right */
 .experience .left::before {
@@ -1111,7 +1113,6 @@ form .button-area {
 .footer .box-container .box p {
   font-size: 1.5rem;
   color: #ccc;
-  padding: 0.7rem 0;
   text-transform: none;
 }
 .footer .box-container .box p i {

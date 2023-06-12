@@ -8,10 +8,20 @@
     <meta name="description" content="Welcome to Umair's Portfolio. Full-Stack Web Developer" />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Favicon -->
     <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <style>
+        h1,h2,h3,h4,h5,h6,span,p,a{
+            font-family: Montserrat;
+        }
+    </style>
     <title>Portfolio | Umair's</title>
 </head>
 <body oncontextmenu="return false">
@@ -23,8 +33,7 @@
 
 <!-- navbar starts -->
 <header>
-        <a href="/myPortfolio2/index.html" class="logo"><i class="fab fa-node-js"></i> Umair</a>
-
+        <a href="/myPortfolio2/index.html" class="logo"><i class="fa-brands fa-laravel"></i> Umair</a>
         <div id="menu" class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
@@ -55,9 +64,9 @@
         <ul class="social-icons">
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/muhammad-umair-111136115/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
           <li><a class="github" aria-label="GitHub" href="https://github.com/Umair-softeng" target="_blank"><i class="fab fa-github"></i></a></li>
-          <li><a class="instagram" aria-label="Instagram" href="https://twitter.com/jigar_sable" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
 <!--          <li><a class="telegram" aria-label="Telegram" href="https://t.me/lifecode5" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>-->
-          <li><a class="gmail" aria-label="gmail" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-google" target="_blank"></i></a></li>
+          <li><a class="gmail" aria-label="gmail" href="mailto:umairashraf735@gmail.com"><i class="fab fa-google" target="_blank"></i></a></li>
 <!--          <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li>-->
         </ul>
       </div>
@@ -71,7 +80,7 @@
 
 <!-- about section starts -->
 <section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    <h2 class="heading"><i class="fas fa-user-alt" style="font-size:30px"></i> About <span>Me</span></h2>
     
     <div class="row">
 
@@ -79,10 +88,10 @@
         <img draggable="false" class="tilt" src="./assets/images/me.jpg" alt="">
     </div>
     <div class="content">
-        <h3>I'm Umair</h3>
-        <span class="tag">Full Stack Developer</span>
+        <h3 style="font-size: 30px;">I'm Umair</h3>
+        <span class="tag" style="font-size: 20px">Full Stack Developer</span>
         
-        <p>I'm a web application developer with expertise in PHP (including Laravel), Vue.js, React.js, and JavaScript. Skilled in developing robust web applications and dynamic user interfaces. Strong understanding of JavaScript and its frameworks. Committed to delivering high-quality code and exceptional user experiences. Continuously updating skills to stay current with industry trends.. </p>
+        <p style="font-size: 18px">I'm a web application developer with expertise in PHP (including Laravel), Vue.js, React.js, and JavaScript. Skilled in developing robust web applications and dynamic user interfaces. Strong understanding of JavaScript and its frameworks. Committed to delivering high-quality code and exceptional user experiences. Continuously updating skills to stay current with industry trends.. </p>
         
         <div class="box-container">
             <!-- <div class="box">
@@ -90,8 +99,8 @@
               <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
             </div> -->
             <div class="box">
-              <p><span style="color: black"> email : </span> umairashraf735@gmail.com</p>
-              <p><span style="color: black"> Phone : </span> +92 336 038 3306</p>
+              <p style="font-size: 18px"><span style="color: black"> email : </span> umairashraf735@gmail.com</p>
+              <p style="font-size: 18px"><span style="color: black"> Phone : </span> +92 336 038 3306</p>
             </div>
         </div>
         
@@ -196,7 +205,7 @@
 
   <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
 
-    <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+    <p class="qoute" style="font-size: 18px; font-weight: bold">Education is not the learning of facts, but the training of the mind to think.</p>
 
     <div class="box-container">
 
@@ -217,7 +226,7 @@
       </div>
       <div class="content">
       <h3>Intermediate | Pre-Engineering</h3>
-      <p>PAK-TURK COLLEGE College Quetta</p>
+      <p>PAK-TURK College Quetta</p>
       <h4>2013-2015 | Completed</h4>
       </div>
     </div>
@@ -226,64 +235,80 @@
 </section>
 <!-- education section ends -->
 
-
 <!-- work project section starts -->
 <section class="work" id="work">
-
-  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
-
-  <div class="box-container">
-
-     <div class="box tilt">
-      <img draggable="true" src="./assets/images/projects/mcq2.png" alt="" height="20"/>
-      <div class="content">
-        <div class="tag">
-        <h3>Land Record Management System</h3>
-        </div>
-        <div class="desc">
-          <p>Digitizes records, bills, licenses, and property information, offering features like geo-tagging, contract management & property management, and enhances revenue monitoring for MCQ.</p>
-          <div class="btns">
-            <a href="http://121996.mcq.gob.pk/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="https://github.com/umair-softeng" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-      <div class="box tilt">
-          <img draggable="true" src="./assets/images/projects/mcq3.png" alt="" height="20"/>
-          <div class="content">
-              <div class="tag">
-                  <h3>Building Control Management System</h3>
-              </div>
-              <div class="desc">
-                  <p>MCQ Building Control Branch is an innovative web application that will revolutionize the process of issuing NOCs (No Objection Certificates) and permits for building construction.</p>
-                  <div class="btns">
-                      <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                      <a href="https://github.com/umair-softeng" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span style="color: darkorange">Made</span></h2>
+  <div class="box-container row">
+      <div class="col-md-6">
+          <div class="box tilt">
+              <img draggable="true" src="./assets/images/projects/mcq4.png" alt="" height="20" style="width: 800px;"/>
+              <div class="content">
+                  <div class="tag">
+                      <h3>Land Record Management System</h3>
+                  </div>
+                  <div class="desc">
+                      <p>The Land Record Management System (LRMS) has digitized all records of the Metropolitan Corporation of Quetta through an online web application. It includes digital bills, licenses, and records of residential and commercial properties, along with advanced features like geo-tagging and contract management. This ensures efficient access, streamlined property management, and accurate monitoring of revenue and pending payments for MCQ.</p>
+                      <div class="btns">
+                          <a href="http://121996.mcq.gob.pk/" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                          <a href="https://github.com/umair-softeng" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                      </div>
                   </div>
               </div>
           </div>
       </div>
-      <br>
-      <div class="box tilt">
-          <img draggable="true" src="./assets/images/projects/nfms.png" alt="" height="20"/>
-          <div class="content">
-              <div class="tag">
-                  <h3>Neighbour's Farm Management System</h3>
-              </div>
-              <div class="desc">
-                  <p>
-                      The farm management system is a comprehensive software solution that handles cow, goat, sheep, poultry, and crop management, while also managing expenditures and staff efficiently.</p>
-                  <div class="btns">
-                      <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                      <a href="https://github.com/umair-softeng" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+      <div class="col-md-6">
+          <div class="box tilt">
+              <img draggable="true" src="./assets/images/projects/mcq3.png" alt="" height="20" style="width: 100%;"/>
+              <div class="content">
+                  <div class="tag">
+                      <h3>Building Control Management System</h3>
+                  </div>
+                  <div class="desc">
+                      <p>MCQ Building Control Branch is an innovative web application that will revolutionize the process of issuing NOCs (No Objection Certificates) and permits for building construction.</p>
+                      <div class="btns">
+                          <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                          <a href="https://github.com/umair-softeng" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                      </div>
                   </div>
               </div>
           </div>
       </div>
-
-</div>
+      <div class="col-md-6 mt-4">
+          <div class="box tilt">
+              <img draggable="true" src="./assets/images/projects/nfms.png" alt="" height="20" style="width: 100%;"/>
+              <div class="content">
+                  <div class="tag">
+                      <h3>Neighbour's Farm Management System</h3>
+                  </div>
+                  <div class="desc">
+                      <p>
+                          The farm management system is a comprehensive software solution that handles cow, goat, sheep, poultry, staff, expenditures and crop management,</p>
+                      <div class="btns">
+                          <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                          <a href="https://github.com/umair-softeng" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 mt-4">
+          <div class="box tilt">
+              <img draggable="true" src="./assets/images/projects/mcq3.png" alt="" height="20" style="width: 100%;"/>
+              <div class="content">
+                  <div class="tag">
+                      <h3>Building Control Management System</h3>
+                  </div>
+                  <div class="desc">
+                      <p>MCQ Building Control Branch is an innovative web application that will revolutionize the process of issuing NOCs (No Objection Certificates) and permits for building construction.</p>
+                      <div class="btns">
+                          <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                          <a href="https://github.com/umair-softeng" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 
 <div class="viewall">
   <a href="projects/index.html" class="btn"><span>View All</span>
@@ -304,10 +329,10 @@
     <div class="container right">
       <div class="content">
         <div class="tag">
-          <h2>Metropolitan Corporation Quetta</h2>
+          <h2 style="font-weight: bold">Metropolitan Corporation Quetta</h2>
         </div>
         <div class="desc">
-            <h3>Full Stack Developer</h3>
+            <h3 style="font-weight: bold">Full Stack Developer</h3>
             <p>Jul 2022 - present</p>
         </div>
       </div>
@@ -316,10 +341,10 @@
     <div class="container left">
       <div class="content">
         <div class="tag">
-          <h2>DailyWebSolutions</h2>
+          <h2 style="font-weight: bold">DailyWebSolutions</h2>
         </div>
         <div class="desc">
-            <h3>Web Developer</h3>
+            <h3 style="font-weight: bold">Web Developer</h3>
             <p>Jul 2021 - Jun 2022</p>
         </div>
       </div>
@@ -328,10 +353,10 @@
     <div class="container right">
       <div class="content">
         <div class="tag">
-          <h2>DailyWebSolutions</h2>
+          <h2 style="font-weight: bold">DailyWebSolutions</h2>
         </div>
         <div class="desc">
-            <h3>Website Developer | Internship</h3>
+            <h3 style="font-weight: bold">Website Developer | Internship</h3>
             <p>Jan 2021 - Jul 2021</p>
         </div>
       </div>
@@ -355,7 +380,7 @@
   <div class="container">
     <div class="content">
       <div class="image-box">
-        <img draggable="false" src="./assets/images/contact1.png" alt="">
+        <img draggable="false" src="./assets/images/android.jpg" alt="" style="width: 100%; margin-left: 60px">
       </div>
     <form id="contact-form">
       
@@ -400,12 +425,12 @@
 
         <div class="box">
             <h3>quick links</h3>
-            <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-            <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-            <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-            <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-            <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-            <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+            <a href="#home" style="text-decoration: none"><i class="fas fa-chevron-circle-right"></i> home</a>
+            <a href="#about" style="text-decoration: none"><i class="fas fa-chevron-circle-right"></i> about</a>
+            <a href="#skills" style="text-decoration: none"><i class="fas fa-chevron-circle-right"></i> skills</a>
+            <a href="#education" style="text-decoration: none"><i class="fas fa-chevron-circle-right"></i> education</a>
+            <a href="#work" style="text-decoration: none"><i class="fas fa-chevron-circle-right"></i> work</a>
+            <a href="#experience" style="text-decoration: none"><i class="fas fa-chevron-circle-right"></i> experience</a>
         </div>
 
         <div class="box">
@@ -423,7 +448,7 @@
         </div>
     </div>
 
-    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/muhammad-umair-111136115/"> Muhammad Umair</a></h1>
+    <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/muhammad-umair-111136115/" style="text-decoration: none"> Muhammad Umair</a></h1>
 
 </section>
 <!-- footer section ends -->
@@ -444,6 +469,7 @@
 <!-- particle.js links -->
 <script src="./assets/js/particles.min.js"></script>
 <script src="./assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 <!-- vanilla tilt.js links -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -459,6 +485,128 @@
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assets/js/script.js"></script>
+<script>
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 50,
+                "density": {
+                    "enable": true,
+                    "value_area": 500
+                }
+            },
+            "color": {
+                "value": "#fff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 3,
+                    "color": "#ffffff"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 3,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": true,
+                "distance": 150,
+                "color": "#fff",
+                "opacity": 0.4,
+                "width": 1
+            },
+            "move": {
+                "enable": true,
+                "speed": 5,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                },
+                "onclick": {
+                    "enable": false,
+                    "mode": "repulse"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 400,
+                    "line_linked": {
+                        "opacity": 1
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 40,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 79.91497047141839,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+    var count_particles, stats, update;
+    stats = new Stats; stats.setMode(0);
+    stats.domElement.style.position = 'absolute';
+    stats.domElement.style.left = '0px';
+    stats.domElement.style.top = '0px';
+    document.body.appendChild(stats.domElement);
+    count_particles = document.querySelector('.js-count-particles');
+    update = function() { stats.begin(); stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { 		 count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+</script>
 
 </body>
 </html>
