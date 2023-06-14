@@ -365,7 +365,7 @@ header .navbar ul li a:hover {
 .about .row .image img {
   margin: 4rem;
   width: 30rem;
-  height: auto;
+  height: 530px;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
   mix-blend-mode: luminosity;
@@ -475,7 +475,8 @@ header .navbar ul li a:hover {
 }
 .skills .container {
   background: rgb(191,188,255);
-  background: linear-gradient(90deg, rgba(191,188,255,1) 0%, rgba(0,164,255,1) 50%, rgba(208,247,255,1) 100%);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 16%, rgba(9,81,121,1) 60%, rgba(2,0,36,0.5) 100%);
+
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
