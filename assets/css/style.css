@@ -253,8 +253,8 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 4em;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
+  color: black;
+  background: darkorange;
   box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
@@ -269,7 +269,8 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  color: white;
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -292,8 +293,8 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #00d9ff;
-  background-color: #09011b;
+  color: white;
+  background-color: black;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -306,23 +307,28 @@ header .navbar ul li a:hover {
 .social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
-  color: #fff;
-  background-color: #0685da;
+  color: white;
+  background-color: darkorange;
 }
 .social-icons a.github:hover {
-  background-color: #0e0e0e;
+  color: white;
+  background-color: darkorange;
 }
 .social-icons a.twitter:hover {
-  background-color: #00aced;
+  color: white;
+  background-color: darkorange;
 }
 .social-icons a.linkedin:hover {
-  background-color: #007bb6;
+  color: white;
+  background-color: darkorange;;
 }
 .social-icons a.dev:hover {
-  background-color: #070707;
+  color: white;
+  background-color: darkorange;
 }
 .social-icons a.instagram:hover {
-  background-color: #ee00da;
+  color: white;
+  background-color: darkorange;
 }
 /* social icons end */
 
@@ -414,10 +420,10 @@ header .navbar ul li a:hover {
 }
 .resumebtn .btn {
   padding: 1.7rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 40px;
   transition: 0.3s;
-  color: #fff;
-  background: #2506ad;
+  color: black;
+  background: darkorange;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
@@ -432,7 +438,8 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  color: white;
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -735,11 +742,12 @@ header .navbar ul li a:hover {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 40px;
   transition: 0.5s;
-  color: rgb(255, 255, 255);
+  color: black;
+  background-color: darkorange;
   font-weight: 700;
-  border: 2px solid #fff;
+  border: 2px solid darkorange;
   box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
 }
@@ -754,8 +762,11 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .work .viewall .btn:hover {
-  background: #fff;
-  color: #000;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+
+  color: white;
+  border: 2px solid black;
+
 }
 .work .viewall .btn:hover i {
   transform: translateX(5px);
@@ -868,10 +879,10 @@ header .navbar ul li a:hover {
   position: relative;
   line-height: 0;
   padding: 1.6rem 3rem;
-  border-radius: 0.5em;
+  border-radius: 40px;
   transition: 0.5s;
-  color: #fff;
-  background: #2506ad;
+  color: black;
+  background: darkorange;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
 }
@@ -886,7 +897,9 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  color: white;
+
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
@@ -1036,20 +1049,21 @@ form .button-area {
   flex-direction: row-reverse;
 }
 .button-area button {
-  color: #fff;
+  color: black;
   border: none;
   outline: none;
   font-size: 1.8rem;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 40px;
   padding: 13px 25px;
-  background: #2506ad;
+  background: darkorange;
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: #421cecf5;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  color: white;
 }
 .button-area span {
   font-size: 17px;
@@ -1062,10 +1076,11 @@ form .button-area {
   left: 2px;
   font-size: 1.5rem;
   transition: 0.3s;
-  color: #fff;
+  color: black;
 }
 .button-area button:hover i {
   left: 8px;
+  color: white;
 }
 /* contact section media queries starts */
 @media (max-width: 900px) {
@@ -1147,10 +1162,10 @@ form .button-area {
   border: none;
 }
 .footer .box-container .box .share a:hover {
-  background: transparent;
+  background: darkorange;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: black;
 }
 .footer .credit {
   padding: 1rem 0 0 0;
@@ -1214,7 +1229,7 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
+  background: darkorange;
   color: rgb(13, 0, 44);
   border-radius: 50%;
   transition: 1s linear;
