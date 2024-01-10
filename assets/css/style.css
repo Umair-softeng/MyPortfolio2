@@ -37,7 +37,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177;
+  background: #420177
 }
 
 /* pre loader start */
@@ -96,7 +96,7 @@ header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #5B0109;
 }
 header .navbar ul {
   list-style: none;
@@ -117,8 +117,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: darkorange;
-  border-bottom: 0.2rem solid darkorange;
+  color: #5B0109;
+  border-bottom: 0.2rem solid #5B0109;
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -193,8 +193,9 @@ header .navbar ul li a:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .home::before {
   content: "";
@@ -217,12 +218,12 @@ header .navbar ul li a:hover {
   width: 70%;
   margin-left: 6rem;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px #C7C7C7;
   cursor: pointer;
 
 }
 .home .image img:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px yellow;
 }
 .home .content h2 {
   font-size: 5rem;
@@ -247,6 +248,7 @@ header .navbar ul li a:hover {
   padding: 1rem 0;
 }
 .home .btn {
+  width: 210px ;
   margin-top: 1rem;
   position: absolute;
   line-height: 0;
@@ -255,7 +257,7 @@ header .navbar ul li a:hover {
   transition: 0.5s;
   color: black;
   background: darkorange;
-  box-shadow: 0px 5px 18px rgba(48, 68, 247, 0.6);
+  box-shadow: 0px 5px 18px #C7C7C7;
   font-family: "Nunito", sans-serif;
 }
 .home .btn span {
@@ -269,7 +271,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  background: #5B0109;
   color: white;
 }
 .home .btn:hover i {
@@ -293,13 +295,14 @@ header .navbar ul li a:hover {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: darkorange;
   width: 44px;
   height: 44px;
   text-align: center;
   margin-right: 8px;
   border-radius: 100%;
+  box-shadow: 0px 5px 18px #C7C7C7;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
@@ -308,27 +311,29 @@ header .navbar ul li a:hover {
 .social-icons a:focus,
 .social-icons a:hover {
   color: white;
-  background-color: darkorange;
+  background-color: #5B0109;
 }
 .social-icons a.github:hover {
   color: white;
-  background-color: darkorange;
+  background-color: #5B0109;
 }
 .social-icons a.twitter:hover {
   color: white;
-  background-color: darkorange;
+  background-color: #5B0109;
 }
 .social-icons a.linkedin:hover {
   color: white;
-  background-color: darkorange;;
+  background-color: #5B0109;
 }
 .social-icons a.dev:hover {
   color: white;
-  background-color: darkorange;
+  background-color: #5B0109;
+
 }
 .social-icons a.instagram:hover {
   color: white;
-  background-color: darkorange;
+  background-color: #5B0109;
+
 }
 /* social icons end */
 
@@ -424,7 +429,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   color: black;
   background: darkorange;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  box-shadow: 0px 5px 10px #5B0109;
   font-family: "Nunito", sans-serif;
 }
 .resumebtn .btn span {
@@ -438,7 +443,9 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
 .resumebtn .btn:hover i {
@@ -471,7 +478,9 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 50vh;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .skills h2 {
@@ -481,10 +490,10 @@ header .navbar ul li a:hover {
   color: darkorange;
 }
 .skills .container {
-  background: rgb(191,188,255);
-  background: linear-gradient(90deg, rgba(0,212,255,1) 16%, rgba(9,81,121,1) 60%, rgba(2,0,36,0.5) 100%);
-
-  color: #fff;
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: black;
   border-radius: 1rem;
   padding: 2rem;
   width: 90%;
@@ -499,15 +508,17 @@ header .navbar ul li a:hover {
 }
 .skills .container .bar {
   margin-bottom: 15px;
+  font-weight: bold;
   padding: 10px;
   border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
+  box-shadow: 0 4px 10px #C7C7C7;
+  background-color: darkorange;
   transition: 0.2s;
 }
 .skills .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  background-color: #5B0109;
+  color: white;
 }
 .skills .container .bar .info {
   display: flex;
@@ -655,8 +666,9 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 6%, rgba(9,81,121,1) 50%, rgba(3,65,78,1) 100%);
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .work h2 {
   color: #fff;
@@ -698,7 +710,10 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
@@ -728,11 +743,14 @@ header .navbar ul li a:hover {
   border-radius: 0.5rem;
   font-size: 1.5rem;
   color: #fff;
-  background: rgb(12, 12, 12);
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin-right: 2rem;
 }
 .work .desc .btns .btn:hover {
-  background: #310ae0f5;
+  background: #5B0109;
 }
 .work .viewall {
   display: flex;
@@ -748,7 +766,7 @@ header .navbar ul li a:hover {
   background-color: darkorange;
   font-weight: 700;
   border: 2px solid darkorange;
-  box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
+  box-shadow: 0px 5px 10px #C7C7C7;
   text-align: center;
 }
 .work .viewall .btn span {
@@ -762,10 +780,9 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .work .viewall .btn:hover {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
-
+  background: #5B0109;
   color: white;
-  border: 2px solid black;
+  border: 2px solid white;
 
 }
 .work .viewall .btn:hover i {
@@ -795,6 +812,7 @@ header .navbar ul li a:hover {
   position: relative;
   background-color: inherit;
   width: 50%;
+
 }
 /*circles on timeline*/
 .experience .container::after {
@@ -804,7 +822,7 @@ header .navbar ul li a:hover {
   height: 35px;
   right: -17px;
   background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
+  border: 4px solid #5B0109;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -816,6 +834,7 @@ header .navbar ul li a:hover {
 }
 .experience .left {
   left: -25%;
+
 }
 .experience .right {
   left: 24.9%;
@@ -831,11 +850,11 @@ header .navbar ul li a:hover {
   right: 30px;
   border: medium solid #f68c09;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #5B0109;
 }
 /* arrows pointing left  */
 .experience .right::before {
-  content: " ";
+  content: "";
   height: 0;
   position: absolute;
   top: 22px;
@@ -844,13 +863,16 @@ header .navbar ul li a:hover {
   left: 30px;
   border: medium solid #f68c09;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #5B0109 transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
   position: relative;
   border-radius: 6px;
 }
@@ -881,9 +903,9 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 40px;
   transition: 0.5s;
-  color: black;
-  background: darkorange;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  color: white;
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
 }
 .morebtn .btn span {
@@ -897,8 +919,8 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
-  color: white;
+  background: darkorange;
+  color: black;
 
 }
 .morebtn .btn:hover i {
@@ -948,12 +970,15 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: #fff;
   min-height: 60vh;
+
 }
 .contact .container {
   width: 100%;
-  background: #fff;
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 1.5rem;
   margin-top: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
@@ -1057,12 +1082,12 @@ form .button-area {
   border-radius: 40px;
   padding: 13px 25px;
   background: darkorange;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  box-shadow: 0px 5px 10px #C7C7C7;
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(9,81,121,1) 60%, rgba(0,212,255,1) 100%);
+  background: #5B0109;
   color: white;
 }
 .button-area span {
@@ -1108,7 +1133,9 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .footer .box-container {
   display: flex;
@@ -1157,15 +1184,15 @@ form .button-area {
   font-size: 1.7rem;
   margin-right: 1rem;
   transition: 0.2s;
-  background: rgb(230, 230, 230);
-  color: #02094b;
+  background: darkorange;
+  color: black;
   border: none;
+  box-shadow: 0 2px 8px #C7C7C7
 }
 .footer .box-container .box .share a:hover {
-  background: darkorange;
+  background: #5B0109;
   transform: scale(0.98);
-  border: 0.1rem solid rgb(180, 178, 178);
-  color: black;
+  color: white;
 }
 .footer .credit {
   padding: 1rem 0 0 0;
