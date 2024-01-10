@@ -22,7 +22,7 @@ body {
 }
 
 *::selection {
-  background: #2b3dda;
+  background: #5B0109;
   color: #fff;
 }
 
@@ -37,7 +37,7 @@ html::-webkit-scrollbar-track {
   background: rgb(235, 202, 245);
 }
 html::-webkit-scrollbar-thumb {
-  background: #420177
+  background: #5B0109
 }
 
 /* pre loader start */
@@ -970,7 +970,7 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #fff;
+  background: white;
   min-height: 60vh;
 
 }
@@ -1033,7 +1033,7 @@ form .message textarea {
   font-family: "Poppins", sans-serif;
   border-radius: 5px;
   border: 1px solid rgb(51, 51, 51);
-  background: #e5ecfb;
+  background: white;
 }
 .field input::placeholder,
 .message textarea::placeholder {
@@ -1042,11 +1042,11 @@ form .message textarea {
 .field input:focus,
 .message textarea:focus {
   padding-left: 47px;
-  border: 2px solid rgb(115, 3, 167);
+  border: 2px solid #5B0109;
 }
 .field input:focus ~ i,
 .message textarea:focus ~ i {
-  color: rgb(115, 3, 167);
+  color: #5B0109;
 }
 form .message {
   position: relative;
@@ -1266,3 +1266,11 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.contactMe{
+  border-radius: 20px;
+  height: 700px;
+  background: #870000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
