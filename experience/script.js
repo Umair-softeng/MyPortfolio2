@@ -65,8 +65,8 @@ srtop.reveal('.experience .timeline .container',{interval: 400});
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Umair";
-        $("#favicon").attr("href","/assets/images/avatar.jpg");
+        document.title = "Experience |Umair's Portfolio";
+        $("#favicon").attr("href","assets/images/avatarNew.jpg");
     }
     else {
         document.title = "Come Back To Portfolio";

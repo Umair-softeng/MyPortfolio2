@@ -59,8 +59,8 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Umair";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            document.title = "Portfolio | Umair's";
+            $("#favicon").attr("href", "assets/images/avatarNew.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
